@@ -19,7 +19,7 @@ export const RepoList = () => {
                 {repos.map((item) => {
                     return (<li key={item.id}>
                         <div>
-                            <h4>{item.name}</h4>
+                            <h4>{item.name} ({item.full_name})</h4>
                             <p>Forks: {item.forks}</p><p>Watchers: {item.forks}</p><br></br>
                             <a href={item.html_url}>{item.html_url}</a>
                         </div>

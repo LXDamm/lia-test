@@ -1,6 +1,7 @@
 interface RepoItem {
     id: number;
     name: string;
+    full_name: string;
     owner: string;
     forks: number;
     open_issues: number;
