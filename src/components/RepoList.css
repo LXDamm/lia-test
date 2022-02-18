@@ -1,0 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
+ul div p {
+    display: inline-block;
+}
