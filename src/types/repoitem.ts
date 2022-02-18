@@ -4,6 +4,7 @@ interface RepoItem {
     owner: string;
     forks: number;
     open_issues: number;
+    html_url: string;
     url: string;
     watchers: number;
     updated_at: string;

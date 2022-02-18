@@ -4,4 +4,6 @@ ul {
 
 ul div p {
     display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
